@@ -6,7 +6,7 @@ from pypdf import PdfReader
 from app.core.errors import ValidationAppError
 from app.utils.text import normalize_text
 
-PARSER_VERSION = "pypdf-6.19.0-v2"
+PARSER_VERSION = "pypdf-6.21.4-v3"
 
 
 @dataclass(frozen=True)
